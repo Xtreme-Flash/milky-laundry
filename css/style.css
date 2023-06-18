@@ -61,6 +61,16 @@ p {
     margin: 5% 3% 5% 0%;
 }
 
+.link-button {
+    text-decoration: none;
+    color: inherit;
+}
+  
+.link-button:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* title image */
 
 .title-image {
@@ -122,7 +132,7 @@ p {
     background-color: rgba(0, 0, 0, 0.8);
   }
 
-  .modal-content {
+.modal-content {
     position: relative;
     max-width: 500px;
     margin: 100px auto;
@@ -130,28 +140,28 @@ p {
     background-color: #fff;
     border-radius: 5px;
     text-align: center;
-  }
+}
 
-  #close-btn {
+#close-btn {
     position: absolute;
     top: 10px;
     right: 10px;
     font-size: 20px;
     color: #555;
     cursor: pointer;
-  }
+}
 
-  #modal-name {
+#modal-name {
     font-size: 24px;
     color: #008080;
     margin-bottom: 10px;
-  }
+}
 
-  #modal-bio {
+#modal-bio {
     font-size: 16px;
     color: #333;
     line-height: 1.5;
-  }
+}
 
 #press {
     background-color: #ef8172;
@@ -178,7 +188,7 @@ p {
 /* CTA section */
 
 #cta {
-    background-color: #FF4C68;
+    background-color: #9AC5F4;
     color: #fff;
     padding: 7% 15%;
     text-align: center;
@@ -210,7 +220,4 @@ p {
         transform: rotate(0);
     }
 }
-
-
-
 
